@@ -1,0 +1,9 @@
+# User-installed packages (on top of omarchy base)
+brave-bin
+freerdp
+google-chrome
+megasync
+openbsd-netcat
+steam
+stow
+transmission-gtk
