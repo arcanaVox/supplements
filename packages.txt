@@ -4,6 +4,7 @@ freerdp
 google-chrome
 megasync
 openbsd-netcat
+rustdesk
 steam
 stow
 transmission-gtk
