@@ -17,5 +17,10 @@ cp ~/supplements/hypr/hypridle.conf ~/.config/hypr/hypridle.conf
 # Waybar customizations
 cp ~/supplements/waybar/config.jsonc ~/.config/waybar/config.jsonc
 
+# Custom aliases (append to bashrc if not already present)
+if ! grep -q "source ~/supplements/aliases" ~/.bashrc; then
+  echo -e "\n# Custom aliases\nsource ~/supplements/aliases" >> ~/.bashrc
+fi
+
 # Custom Plymouth boot logo (requires sudo)
 ./install-plymouth-logo.sh
