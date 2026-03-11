@@ -1,4 +1,4 @@
 # Custom aliases for supplement directory tools
 alias send_to_pi='/home/john/supplement/send_to_pi.sh'
-alias ll='ls -snew'
+alias ll='ls -snew -a'
 alias nv='nvim'
