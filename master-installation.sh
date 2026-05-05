@@ -10,12 +10,14 @@ cp ~/supplements/screensaver-mckallip.txt ~/.config/omarchy/branding/screensaver
 
 # Hyprland customizations
 cp ~/supplements/hypr/input.conf ~/.config/hypr/input.conf
+cp ~/supplements/hypr/bindings.conf ~/.config/hypr/bindings.conf
 cp ~/supplements/hypr/looknfeel.conf ~/.config/hypr/looknfeel.conf
 cp ~/supplements/hypr/monitors.conf ~/.config/hypr/monitors.conf
 cp ~/supplements/hypr/hypridle.conf ~/.config/hypr/hypridle.conf
 
 # Waybar customizations
 cp ~/supplements/waybar/config.jsonc ~/.config/waybar/config.jsonc
+cp ~/supplements/waybar/style.css ~/.config/waybar/style.css
 
 # Custom aliases (append to bashrc if not already present)
 if ! grep -q "source ~/supplements/aliases" ~/.bashrc; then
