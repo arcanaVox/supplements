@@ -10,8 +10,7 @@ if [[ -z $weather ]]; then
 fi
 
 IFS='|' read -r place temperature wind <<< "$weather"
-place=${place%%,*}
-place=${place^}
+place="Carter's Loop"
 temperature=${temperature#+}
 
 echo "$(omarchy-weather-icon)    $place  ·  Temp $temperature  ·  Wind $wind"
