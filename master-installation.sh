@@ -19,6 +19,12 @@ cp ~/supplements/hypr/hypridle.conf ~/.config/hypr/hypridle.conf
 cp ~/supplements/waybar/config.jsonc ~/.config/waybar/config.jsonc
 cp ~/supplements/waybar/style.css ~/.config/waybar/style.css
 
+# Local bin overrides (shadow omarchy binaries via PATH precedence)
+mkdir -p ~/.local/bin
+cp ~/supplements/local-bin/omarchy-weather-status ~/.local/bin/omarchy-weather-status
+cp ~/supplements/local-bin/omarchy-weather-icon ~/.local/bin/omarchy-weather-icon
+chmod +x ~/.local/bin/omarchy-weather-status ~/.local/bin/omarchy-weather-icon
+
 # Custom aliases (append to bashrc if not already present)
 if ! grep -q "source ~/supplements/aliases" ~/.bashrc; then
   echo -e "\n# Custom aliases\nsource ~/supplements/aliases" >> ~/.bashrc

@@ -10,6 +10,7 @@ Personal customizations layered on top of a stock [omarchy](https://github.com/b
 | `packages.txt` | Extra AUR/pacman packages installed on top of the omarchy base |
 | `hypr/` | Hyprland config overrides (input, monitors, look & feel, idle) |
 | `waybar/config.jsonc` | Waybar status bar config (12-hour clock, custom layout) |
+| `local-bin/` | Override scripts installed to `~/.local/bin/` to shadow omarchy defaults (weather pinned to zip 77535) |
 | `aliases` | Shell aliases sourced from `~/.bashrc` |
 | `omarchy-overrides.conf` | Hook file for omarchy override points |
 | `screensaver-mckallip.txt` | Custom screensaver text (replaces omarchy default) |
